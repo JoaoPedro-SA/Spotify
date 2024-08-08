@@ -1,0 +1,425 @@
+body{
+     margin: 0px;
+     background-color: rgb(0, 0, 0);
+     background-image: url('40.jpg');
+    /*  backdrop-filter: blur(0px);     /* Desfoque de 5px  aviso isso pode travar elementos position
+     fixed*/  ;
+     background-repeat: no-repeat;
+     background-size: 100%;
+     height: fit-content;
+     
+     overflow-x: hidden;
+     
+     
+     
+}
+
+.black{
+     background-color: rgba(0, 0, 0, 0.397);
+     height: 60em;
+}
+
+nav { 
+     background-color: rgba(17, 17, 17, 0.582);
+     text-align: left;
+     color: white;
+     padding-bottom:0px;
+     width: 100vw;
+     position: fixed;
+}
+
+a{
+     margin-bottom: 2%;
+}
+.logo_spotify{ 
+     position: relative ;
+     top: 40px;
+     left: 50px;
+     width: 40px;
+     height: 40px;
+     color: rgb(5, 240, 83);
+     
+}
+.logo_spotify_B{
+     color: rgb(255, 255, 255);
+     width: 40px;
+     height: 40px;
+     position: relative ;
+     top: -10px;
+}
+.nome_logo_menu_B{
+     font-weight: bold;
+     margin: 0%;
+     padding: 0%;
+     text-decoration: double;
+     color: white;
+     text-decoration: solid;
+     font-size: 25px;
+     font-family: "Kanit", sans-serif;
+     font-style: normal;
+}
+
+.nome_logo_menu{
+     font-weight: bold;
+     margin: 0%;
+     padding: 0%;
+     text-decoration: double;
+     color: white;
+     text-decoration: solid;
+     font-size: 25px;
+     position: relative ;
+     top: 30px;
+     left: 54px;
+     font-family: "Kanit", sans-serif;
+     font-style: normal;
+}
+.link_nav{
+     text-align: end;
+     margin-left: 52vmax;
+     display: flex;
+     gap: 40px;
+     flex-basis: auto;
+     font-size: 20px;
+     font-family:Arial, Helvetica, sans-serif sans-serif;
+
+}
+.link_navb1{
+     font-size: 40px;
+     font-weight: bold;
+     position: relative;
+     top: -10px;
+     
+}
+
+#link_navb1{
+     text-wrap: nowrap;
+}
+#login{
+     color: rgba(255, 255, 255, 0.774);
+     height: 0.8em;
+}
+#login:hover{
+     color: rgb(247, 238, 238);
+     text-decoration: none;
+}
+#login2{
+     height: 0.8em;
+     color: rgba(255, 255, 255, 0.795);
+}
+#login2:hover{
+     color: rgb(247, 238, 238);
+     text-decoration: none;
+}
+.link_navb{
+     color: white;
+     text-decoration: none;
+}
+
+.link_navb:hover{
+     text-decoration: underline;
+}
+
+
+.corpo{
+     background-color: rgba(255, 255, 255, 0);
+     margin-top: 0%;
+     padding-top: 16%;
+     margin-left: 0%;
+     margin-right: 0%;
+     font-size: 5.0svb;
+     font-family: Arial, Helvetica, sans-serif;
+     color: rgb(255, 255, 255);
+     font-weight: bolder red;
+     text-shadow: 4px 2px 2px #00000085;
+     height: fit-content;
+     width: 100vw;
+     background-color: rgba(0, 255, 255, 0);
+     text-align: center;
+     justify-items: center;
+     justify-content: center;
+     justify-self: center;
+     margin-bottom: 15%;
+     
+}
+
+.corpo_h1{
+     white-space: nowrap;
+     overflow: hidden;
+     text-align: center;
+
+}
+
+#corpo_h1_0{
+     white-space: nowrap;
+     
+   
+}
+
+#corpo_h1_1{
+     font-size: 3.0svb;
+     text-wrap: wrap;
+     text-align: center;
+     color: rgba(255, 255, 255, 0.788);
+     
+}
+
+
+@keyframes digitando {
+     from {
+       width: 0;
+       color: rgb(0, 250, 83);
+       
+     }
+     to {
+       width: 30ch; /* alterar a largura final para 26ch */
+      color: rgb(0, 250, 83);
+     }  
+
+     to {
+          color: rgb(255, 255, 255);
+          
+        }  
+     
+  }
+ 
+  
+
+.corpo_button{
+     font-family: Arial, Helvetica, sans-serif;
+     margin-left: 0px;
+     background-color: rgba(0, 255, 0, 0.548);
+     padding: 0.4% 10% 0.5% 10%;
+     font-size: 50%;
+     color: white;
+     text-shadow: 4px 2px 2px #00000085;
+     text-decoration: none;
+     border-radius: 100px;
+}
+a{
+     text-decoration: none;
+}
+.corpo_button:hover{
+     transition: 1.4s;
+     background-color: rgb(0, 255, 0);
+}
+.footer{
+     background-color: rgb(255, 255, 255);
+     position: absolute;
+     width: 100vw;
+     margin-top: initial;
+
+}
+
+.corpo_footer{
+     background-color: rgb(0, 0, 0);
+     display: block;
+
+}
+.corpo_footer1{
+     margin: 0%;
+     padding: 0%;
+     background-color: rgb(255, 255, 255);
+     padding-bottom: 0% ;
+     margin-bottom: 0%;
+     text-align: center;
+     padding-top: 0;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 2% 2%;
+     background-color: rgba(174, 0, 255, 0);
+     padding-top: 50px;
+     margin-top: 0%;
+     padding-bottom: 0%;
+     height: 100%;
+
+     justify-content: center;
+
+
+}
+
+.ajusta_img{
+     display: flex;
+     gap: 10px;
+}
+
+.lista{
+     background-color: rgba(0, 255, 64, 0);
+     width: 13em ;
+     height: fit-content;
+     text-align: left;
+     display: flex;
+     flex-wrap: wrap-reverse;
+     flex-direction: column;
+     
+}
+
+.titulo_list{
+     margin-bottom: 25px;
+     color: rgba(255, 255, 255, 0.712);
+
+}
+.text_list{
+     margin-bottom: 20px;
+     color: rgb(255, 255, 255);
+}
+
+#lista_img{
+     color: rgb(255, 255, 255);
+     display: flex;
+     flex-direction: row;
+     gap: 20px;
+
+}
+a{
+     color: white;
+}
+
+.footer_end{
+     text-align: center;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     gap: 22%;
+     color: rgba(255, 255, 255, 0.801);
+     flex-wrap: nowrap;
+     background-color: rgba(0, 0, 255, 0);
+     margin-top: 10%;
+     flex-wrap: wrap;
+
+}
+.footer_end1{
+     text-align: center;
+     display: flex;
+     gap: 20px;
+     color: rgba(252, 252, 252, 0.801);
+     flex-wrap: nowrap;
+     background-color: rgba(255, 0, 0, 0);
+     flex-wrap: wrap;
+}
+
+.fim_footer{
+     position: relative;
+     top: -19px;
+}
+/*
+.corpo_black{
+ background-color: rgba(0, 0, 0, 0);
+ height: 150vh;
+ width: 100vw;
+
+     
+}
+*/
+
+@media screen and (max-height: 1200px ) and (max-width: 900px) {
+
+     body {
+          background-color: black;
+     }
+   
+     .corpo{
+          margin-bottom: 0;
+     }
+
+     .link_nav{
+          margin-left: 20vmax;
+          font-size: 17px;
+     }
+
+     #corpo_h1_0{
+          font-size: 100%;
+     }
+
+     #corpo_h1_1{
+          font-size: 50%;
+     }
+   }
+
+
+@media screen and (max-height: 500px ) and (max-width: 1002px) {
+     body {
+          background-color: black;
+     }
+     
+     .link_nav{
+          margin-left: 30vmax;
+          font-size: 17px;
+     }
+
+     #corpo_h1_0{
+          font-size: 200%;
+     }
+
+     #corpo_h1_1{
+          font-size: 100%;
+     }
+}
+
+@media screen and (max-height: 1002px ) and (max-width: 500px) {
+
+     body {
+          background-color: rgb(0, 0, 0);
+          background-image: none;
+     }
+
+     .nav {
+          position:relative;
+          top: -100px;
+          display: block;
+          
+     }
+
+     .corpo{
+          
+     }
+
+     #corpo_h1_0{
+          font-size: 30px;
+          position:relative;
+          top: -100px
+     }
+
+     #corpo_h1_1{
+          font-size: 15px;
+          position:relative;
+          top: -100px
+     }
+
+     .black{
+          margin-top: 20%;
+          background-image: url('40.jpg');
+          background-repeat: no-repeat;
+          background-size: 100%;
+          height: fit-content;
+     }
+     .corpo_button{
+          position:relative;
+          top: -100px;
+          font-size: 30%;
+     }
+
+     .nome_logo_menu{
+          left: 0px;
+          font-size: 15px;
+          top: 35px; 
+          left: -10px;
+          font-size: 3vmin;
+          display: none;
+
+     }
+
+     .logo_spotify{
+          left: 0px;
+          height: 20px;
+     }
+
+     .link_nav{
+          margin-left: 8vmax;
+          font-size: 3.5vmin;
+          gap:4%;
+          position:relative;
+          top: 20px
+     }
+     
+
+}    

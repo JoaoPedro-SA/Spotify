@@ -1,0 +1,808 @@
+body{
+     background-color: antiquewhite;
+     margin-right: 0%;
+     background-image: url('Design\ sem\ nome.jpg');
+     background-size: cover;
+     background-repeat: repeat-y;
+     overflow-x: hidden;
+     position: relative;
+     height: fit-content;
+     overflow-y: hidden;
+}
+
+nav { 
+     background-color: rgb(31, 30, 30);
+     text-align: left;
+     color: white;
+    padding-top: 30px  ;
+    padding-bottom:30px  ;
+     grid-area: nav ;
+     grid-column: span;
+     width: 100vw;
+     position: fixed; 
+     grid-area: nav;
+     z-index: 1;
+    
+     
+}
+
+
+.logo_spotify{ 
+     margin-left: 5%;
+     top: 10px;
+     position: relative ;
+     bottom: 0px;
+     color: white;
+     width: 18px;
+     height: 18px;
+     margin-bottom: 10%;
+}
+.logo_name{
+    
+     display: flex;
+}
+
+.activ_menu{
+     padding: 5px;
+     background-color: #00000000;
+     color: white;
+     position: relative;
+     top: -10px;
+     border-radius: 30px;
+     
+
+}
+
+.activ_menu2{
+     padding: 5px;
+     background-color: #00000000;
+     color: white;
+     position: relative;
+     top: -5px;
+     border-radius: 30px;
+     left: 50px;
+     font-size: 14px;
+     
+
+}
+
+.nome_logo_menu{
+     font-weight: bold;
+     margin: 0%;
+     padding: 0%;
+     text-decoration: double;
+     color: white;
+     text-decoration: solid;
+     font-size: 18px;
+     position: relative ;
+     font-family: "Kanit", sans-serif;
+     font-style: normal;
+     
+}
+.link_nav{
+     margin-left:5cqmax ;
+     display: flex;
+     gap: 2em;
+     flex-basis: auto;
+     text-wrap: nowrap;
+}
+.link_navb{
+     color: white;
+     text-decoration: none;
+ 
+}
+
+.link_navb:hover{
+     text-decoration: underline;
+}
+.nav_input{
+     color: rgb(0, 0, 0);
+     text-decoration: solid;
+     background-color: #cccccc;
+     border: none;
+     border-bottom: 3px solid rgb(0, 0, 0);
+     border-left: 3px solid rgb(0, 0, 0);
+     border-top: 3px solid rgb(0, 0, 0);
+     border-start-start-radius: 15px;
+     border-bottom-left-radius: 15px;
+     padding-left: 20px;
+     outline: none;
+}
+.nav_input_logo_pesquisa{
+     color: rgb(0, 0, 0);
+     border: none;
+     background-color: rgb(240, 248, 255);
+     outline: 3px solid rgb(0, 0, 0)  
+}
+.codigoMusica1{
+
+}
+
+.button_preto_branco{
+     background: none;
+     color: white; 
+     border-radius: 30px;
+     padding: 5px;
+     position: relative;
+     top: -10px;
+}
+
+.corpo{
+     margin: 0%;
+     padding: 0%;
+     background-color: rgb(0, 0, 0);
+     width: 10;
+}
+.contain{
+     display: grid;
+     grid-template-columns: 18em auto;
+     grid-template-rows: 100ric;
+     grid-template-areas: 
+     "menu1 music";
+     gap: 1em;
+     width: 100%;
+     height: 100%;
+     background-color: rgb(0, 0, 0);
+}
+
+.menu{
+     padding: 10%;
+     padding-left: 0px;
+     padding-right: 0%;
+     margin-right: 0px;
+     margin: 0%;
+     background-color: rgb(31, 30, 30);
+     color: rgb(34, 34, 34);
+     grid-area: menu1;
+     word-break: break-all;
+     padding-bottom: 0vmax;
+     position: static;
+     border-radius: 0%;
+     height: 100vh;
+     z-index: 0.8;
+}
+
+.menu:hover{
+     overflow-y: auto; 
+}
+
+.menu::-webkit-scrollbar {
+     width: 10px; /* Largura da barra de rolagem */
+ }
+ 
+ /* Track */
+ .menu ::-webkit-scrollbar-track {
+     background: #f1f1f1; /* Cor de fundo da barra */
+ }
+ 
+ /* Handle */
+ .menu ::-webkit-scrollbar-thumb {
+     background: #888; /* Cor da barra de rolagem */
+ }
+ 
+ /* Handle on hover */
+ .menu::-webkit-scrollbar-thumb:hover {
+     background: #555; /* Cor da barra de rolagem quando o mouse está sobre */
+ }
+
+ 
+#btn-primary{
+     text-align: center;
+     background-color: black;
+     border: 1px solid rgb(0, 255, 0);
+     width: 100%;   
+     padding-left: 3cqmax ;
+     padding-right: 3cqmax;
+     position: relative;
+     left: -5px;
+     
+     
+}
+.corpo_part2_2{
+     margin-bottom: 20%;
+}
+
+.musica_nova{
+  color: white;
+  margin-bottom: 20%;
+  padding: 1%;
+  background-color: #555;
+  border-radius: 15px;
+  border: 2px solid purple;
+  text-align: center;
+  display: block;
+  
+}
+.musica_nova_button{
+     
+     width: 100%; /* Ocupa 50% da largura do container */
+     box-sizing: border-box; /* Se estende até a borda do container */
+     background-color: rgb(51, 51, 51);
+     color: white;
+}
+.musica_nova_button:hover{
+     background-color: #19a814;
+     font-weight: bold;
+  
+}
+.lista_de_musica{
+     text-align: center;
+}
+
+.link_categorias{ 
+     background: rgba(0, 0, 0, 0);
+     text-decoration: none;
+     color: white;
+     font-size: 20px;
+}
+.link_categorias:hover{
+     color: rgb(0, 255, 0);
+}
+
+
+.dropdown-menu{
+     background: black;
+
+}
+.collapse{
+     
+}
+
+.corpo3_link_foute{
+     font-size: 80%;
+     color: rgba(255, 255, 255, 0.596);
+     text-decoration: none;
+
+}
+.corpo3_link_foute:hover{
+     color: rgb(255, 255, 255); 
+     font-size: 90%;
+}
+
+.corpo_part1{
+     border-bottom: 5px solid rgb(51, 255, 0);
+     padding-left: 5%;
+     padding-bottom: 5%;
+     text-align: left;
+     color: white;
+
+}
+.corpo_total{
+     text-align: center;
+     justify-content: center;
+     justify-items: center;
+     justify-self: center;
+     
+}
+
+
+
+.corpo_bunton{
+     text-align: center;
+     background-color: rgba(0, 0, 0, 0);
+     color: rgba(184, 184, 184, 0.986);
+     border: none;
+     font-size: 20px;
+
+}
+
+.button_mp3{
+     display: flex;
+
+     
+}
+
+
+
+.corpo_bunton:hover{
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(0, 255, 0);
+  border-radius: 15px;
+  transition: 0.5s;
+
+}
+
+
+
+.corpo_part2{
+  padding-left: 5%;
+  position: relative;
+
+}
+.accordion-header1{
+     font-size: 60%;
+     width: 100%;
+     height: 100%;
+     text-decoration: none;
+     color: rgba(255, 255, 255, 0.712);
+     background: rgb(53, 53, 53);
+     padding-top: 5%;
+     padding-bottom: 2%;
+     border-radius: 15px;
+     border: none;
+     text-align: left;
+     padding-left: 5%; 
+}
+.accordion-header1:focus{
+     color: rgb(255, 255, 255);   
+}
+
+#collapseThree{
+     background: rgba(53, 53, 53, 0);
+   
+}
+#collapseTwo{
+transition: 1.5s;
+}
+#collapseThree{
+     transition: 1.5s;
+}
+.accordion-header{
+     background: rgb(53, 53, 53);
+     border: 2px solid rgb(0, 255, 21);
+     border-bottom: none ;
+     border-top-left-radius: 15px;
+     border-top-right-radius: 15px;
+
+}
+.accordion-item{
+     background: rgba(53, 53, 53, 0);
+     
+   
+}
+.accordion-body{
+     background: rgb(53, 53, 53);
+     color: rgba(255, 255, 255, 0.705);
+     border: 2px solid rgb(0, 255, 21);
+     outline: #cccccc00;
+     border-top: none ;
+     text-align: left;
+     border-bottom-left-radius: 15px;
+     border-bottom-right-radius: 15px;
+    
+}
+.link_categorias{
+     background: rgba(53, 53, 53, 0);
+}
+
+.accordion_button{
+     border-radius: 30px;
+     border: none;
+     background-color: white;
+     color: black;
+     padding-right: 10% ;
+     padding-left: 10%;
+     font-weight: bold;
+      margin: -6%;
+      transition: transform 0.2s ease-in-out;
+}
+#collapseOne{
+     transition: 1s;
+}
+
+.accordion_button:hover{
+     transform: scale(1.04);
+
+}
+
+.corpo_part3{
+     border-top: 5px solid rgb(51, 255, 0);
+     padding-left: 5%;
+     padding-bottom: 5%;
+     padding-top: 20px;
+     text-align: left;
+     margin-top: 30px;
+     width: 100%;
+}
+
+.accordion{
+     margin-right: 5%;
+     
+   
+}
+#botao-idioma{
+     background: none;
+     color: white;
+     border: 1px solid rgba(255, 255, 255, 0.705);
+     border-radius: 15px;
+     padding-left: 5%;
+     padding-right:5%;
+}
+#botao-idioma:hover{
+     font-weight: 600px;
+     border: 2.5px solid white;
+}
+     
+
+
+
+.button_bibi{
+     display: flex;
+     gap: 10%;
+     
+}
+
+.button_bibi1{
+     width: 100%;
+     background-color: rgba(0, 0, 0, 0);
+     color: rgba(255, 255, 255, 0.733);
+     margin-bottom: 10%;
+     font-size: 1.2em;
+     border: none;
+
+}
+.button_bibi1:hover{
+     font-weight: 600;
+     color: white;
+}
+
+.button_M{
+     width: 10%;
+     background-color: rgba(0, 0, 0, 0);
+     color: rgba(255, 255, 255, 0.747);
+     margin-bottom: 10%;
+     font-size: 2.2em;
+     position: relative;
+     top: -0.6vmax;
+     border: none;
+
+}
+.button_M:hover{
+     font-weight: 600;
+     color: white;
+}
+
+#corpo_link_menu_lateral{
+     color: white;
+     font-size: 150%;
+     margin-left: 0%;
+     display: flex;
+     text-decoration: none;
+   
+}
+#corpo_link_menu_lateral:hover{
+     color: rgb(0, 255, 21);
+}
+.modal{
+   display: none; 
+   border-radius: 20px;
+   
+}
+#modal-lg{
+     border-radius: 20px;
+     transition: 1s;
+}
+.modal-dialog{
+     color: black;
+     background-color: rgb(46, 46, 46);
+     border-radius: 20px;
+
+     
+}
+.modal-body{
+      color: black;
+      background-color: rgb(46, 46, 46);
+     display: flex;
+       flex-wrap:wrap;
+
+     
+     
+      
+}
+
+.modal-content{
+     background-color: rgb(46, 46, 46);
+     color: white;
+     margin-top: 20vh;
+
+     
+}
+.Modal_scrol{
+     overflow-y: scroll;
+     max-height: 50vh;
+
+}
+.Modal_scrol::-webkit-scrollbar {
+     width: 15px; /* Largura da barra de rolagem */
+ }
+ 
+ /* Track */
+ .Modal_scrol::-webkit-scrollbar-track {
+     background: #8f8f8ffd; /* Cor de fundo da barra */
+ }
+ 
+ /* Handle */
+ .Modal_scrol::-webkit-scrollbar-thumb {
+     background: #000000; /* Cor da barra de rolagem */
+ }
+ 
+ /* Handle on hover */
+ .Modal_scrol::-webkit-scrollbar-thumb:hover {
+     background: #09ff00; /* Cor da barra de rolagem quando o mouse está sobre */
+   
+ }
+
+
+
+#staticBackdropLabel{
+     background-color: rgb(46, 46, 46);
+     color: white;
+
+     
+}
+#staticBackdrop{
+     background-color: #02050286;
+
+     
+}
+.modal-header{
+     display: flex;
+     background-color: rgb(46, 46, 46);
+     color: white;
+     gap: 30%;
+     border-top-left-radius: 20px;
+     border-top-right-radius: 20px ;
+}
+
+
+
+
+
+
+.modal-header:not(focus){
+     color: white;
+
+}
+
+.btn-close{
+   border: 3px solid rgb(255, 0, 0);
+  
+}
+.button_moldal_l{
+     width: 11.7em;
+     text-align: left;
+     color: white;
+     background-color: rgb(46, 46, 46);
+     border: none;
+}
+.button_moldal_l_p{
+     color: rgba(255, 255, 255, 0.507);
+}
+.button_moldal_l:hover{
+     background-color: rgb(78, 78, 78);
+
+}
+.buton_X{
+  background-color: rgb(0, 0, 0); 
+  border-radius: 100%;
+  color: white;
+  font-weight: 100;
+  padding: 1%;
+  padding-left: 1.2%;
+  padding-right: 1.2%;
+  border: none;
+  font-size: 80%;
+}
+
+.music{
+     padding: 0%;
+     margin: 0%;
+     background-color: rgb(0, 0, 0);
+     grid-area: music;
+     background-image: url(Design\ sem\ nome.jpg);
+     background-repeat: repeat-y;
+     background-size: cover;
+
+     height: 100vh;
+     width: 100%;
+     margin-right: 10%;
+     z-index: 0;
+     overflow-y: scroll;
+     overflow-x: hidden;
+    
+     
+}
+
+.music::-webkit-scrollbar {
+     width: 20px; /* Largura da barra de rolagem */
+     background-color: #f1f1f12d;
+ }
+ 
+ /* Track */
+ .music ::-webkit-scrollbar-track {
+     background: #f1f1f1; /* Cor de fundo da barra */
+ }
+ 
+ /* Handle */
+ .music ::-webkit-scrollbar-thumb {
+     background: #fffdfd; /* Cor da barra de rolagem */
+ }
+ 
+ /* Handle on hover */
+ .music::-webkit-scrollbar-thumb:hover {
+     background: #555; /* Cor da barra de rolagem quando o mouse está sobre */
+ }
+
+
+#music_ordem {
+  display: flex;
+  width: fit-content;
+  gap: 10px;
+  position: relative;
+  left: 0%;
+  
+}
+.btn-mover{
+     position: fixed;
+     padding: 40px;
+}
+.music_block_ordem{
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     justify-content: center;
+    
+     
+}
+
+.audio{
+     width: 100%;
+     margin-left: 0%;
+     margin-top: 10%;
+     color: rgb(255, 0, 0);
+     
+}
+
+.corpo_music{
+padding-left: 5%;
+padding-top: 0%;
+padding-bottom: 0%;
+     
+}
+.music2{
+ padding-top: 10%;
+ padding-bottom: 10%;
+}
+
+
+.flex_3{
+     display: flex;
+     gap:2%;
+     
+}
+
+
+
+
+.corpo_music_h1{
+     color: rgb(255, 255, 255);
+     font-size: 220%;
+     width: fit-content;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-weight: 600;
+     font-style: normal;
+
+}
+
+
+
+.corpo_music_h1:hover{
+     border-bottom: 2px solid white;
+     color:#09ff00
+
+}
+
+.button{
+     margin-top: 10%;
+     margin-bottom: 5%;
+     border: 5px solid rgba(3, 253, 99, 0.616);
+     background: none;
+     color: white;
+     text-align: center;
+     border-radius: 5%;
+     padding: 0%;
+     width: 15em;
+     height: 15em;
+     box-shadow: 0 5px 15px rgb(0, 255, 115);
+}
+.button:hover{
+     background-color: rgba(0, 0, 0, 0.336) ;
+}
+
+.button:focus:hover {
+     border-color: rgb(255, 255, 255);
+     box-shadow: 0 5px 200px rgb(255, 255, 255);
+     transition: 1s;
+}
+.modal-backdrop{
+     width: 0;
+     height: 0;
+     display: none;
+}
+.title_h1{
+     font-size: 120%;
+     text-decoration: solid;
+     font-weight: bold;
+}
+
+.title_p{
+     font-size: 80%;
+}
+
+.modal-backdrop fade show {
+     display: none;
+}
+
+.button_h6{
+     font-size: 140%;
+     text-align: left;
+     margin-left: 10%;
+}
+.button_p{
+     color: rgba(255, 255, 255, 0.61);
+     text-align: left;
+     margin-left: 10%;
+     font-size: 110%;
+}
+.img{
+     border-radius: 100vw;
+     height: 60%;
+     width: 70%;
+    
+     
+}
+
+.music_barra{
+     
+}
+
+.container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+   }
+
+.button_D_E:hover {
+     font-size: 20px;
+   }
+
+   .button_D_E{
+     margin: 0px;
+     padding: 1px;
+     font-size: 10%;
+     cursor: pointer;
+     padding-bottom: 0;
+     border-radius: 100%;
+     background-color: rgba(255, 222, 173, 0);
+     border: none;
+   }
+
+#img_button_3{
+     height: 150%;
+     width: 150%;
+     color: white;
+     padding-right: 20px;
+
+   
+} 
+#img_button_3:active{
+     color: #09ff00;
+}
+.flex_4{
+     display: -moz-grid-line;
+     gap: 2000px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilo BRANCO ################################################################################## */
