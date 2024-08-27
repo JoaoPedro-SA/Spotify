@@ -279,3 +279,12 @@ img{
      width: 100px;
      background-color: rgba(240, 248, 255, 0);
 }
+
+.erro{
+     color: black;
+     background-color: red;
+     font-weight: 700;
+     font-size: 2ch;
+     border-radius: 20px;
+     box-shadow: 10px 10px  rgb(250, 250, 250) transparent;
+}

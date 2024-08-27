@@ -1,0 +1,252 @@
+body {
+     background-color: rgb(139, 139, 139);
+     padding: 0;
+     margin: 0;
+     overflow-x: hidden;
+     background-color: rgb(0, 0, 0); 
+     
+}
+
+nav { 
+     background-color: rgba(57, 90, 74, 0.582);
+     text-align: left;
+     color: white;
+     padding-bottom:0px;
+     width: 100vw;
+     position: fixed;
+     height: 100px;
+}
+.logo_spotify{ 
+     position: relative ;
+     top: 40px;
+     left: 50px;
+     width: 40px;
+     height: 40px;
+     color: rgb(5, 240, 83);
+     
+}
+.logo_spotify_B{
+     color: rgb(255, 255, 255);
+     width: 40px;
+     height: 40px;
+     position: relative ;
+     top: -10px;
+}
+.nome_logo_menu_B{
+     font-weight: bold;
+     margin: 0%;
+     padding: 0%;
+     text-decoration: double;
+     color: white;
+     text-decoration: solid;
+     font-size: 25px;
+     font-family: "Kanit", sans-serif;
+     font-style: normal;
+}
+
+.nome_logo_menu{
+     font-weight: bold;
+     margin: 0%;
+     padding: 0%;
+     text-decoration: double;
+     color: white;
+     text-decoration: solid;
+     font-size: 25px;
+     position: relative ;
+     top: 30px;
+     left: 54px;
+     font-family: "Kanit", sans-serif;
+     font-style: normal;
+}
+
+.pacote3{
+     width: 100vw;
+     height: 79.1vh;
+     background-color: rgb(0, 0, 0); 
+     display: flex;
+     justify-content: center;
+     padding-top: 12rem;
+     gap: 40px;
+     
+}
+.flex_ajuste{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     gap: 20px;
+     width: 100%;
+     justify-content: center;
+}
+
+.pacote_basic{
+     width: 20em;
+     height: fit-content;
+     background-color: rgb(46, 46, 46);
+     border-radius: 20px;
+     text-align: center;
+     padding-bottom: 2%;
+}
+.pacote_basic:hover{
+     border: 2px solid salmon;
+     transition: 0.2s linear
+}
+
+.pacote_Pro{
+     width: 20rem;
+     height: fit-content;
+     background-color: rgb(46, 46, 46);
+     border-radius: 20px;
+     text-align: center;
+     padding-bottom: 2%;
+     
+}
+.pacote_Pro:hover{
+     border: 2px solid rgb(185, 5, 185);
+     transition: 0.2s linear
+}
+.pacote_Ultimate{
+     width: 20rem;
+     height: fit-content;
+     background-color: rgb(46, 46, 46);
+     border-radius: 20px;
+     text-align: center;
+     padding-bottom: 2%;
+}
+
+.pacote_Ultimate:hover{
+     border: 2px solid rgb(0, 204, 255);
+     transition: 0.2s linear
+}
+
+.oferta1{
+     width: fit-content;
+     padding: 10px;
+     background-color: salmon;
+     font-weight: bold;
+     border-radius: 10px;
+     border-top-right-radius: 0 ;
+     border-bottom-left-radius: 0;
+}
+
+.oferta2{
+     width: fit-content;
+     padding: 10px;
+     font-weight: bold;
+     background-color: rgb(185, 5, 185);
+     border-radius: 10px;
+     border-top-right-radius: 0 ;
+     border-bottom-left-radius: 0;
+}
+
+.oferta3{
+     width: fit-content;
+     padding: 10px;
+     font-weight: bold;
+     background-color: rgb(0, 204, 255);
+     border-radius: 10px;
+     border-top-right-radius: 0 ;
+     border-bottom-left-radius: 0;
+}
+.titulo1{
+     font-size: 20px;
+     padding-left: 20px;
+     color: salmon;
+}
+.titulo2{
+     font-size: 20px;
+     padding-left: 20px;
+     color:   rgb(185, 5, 185);
+}
+.titulo3{
+     font-size: 20px;
+     padding-left: 20px;
+     color:    rgb(0, 204, 255);
+}
+
+.logo_spotify2{
+     width: 20px;
+     height: 20px;
+     position: relative;
+     left: 10px;
+     top: 15px;
+     color: rgb(255, 255, 255);
+}
+.flex_titulo{
+     display: flex;
+     text-align: center;
+     
+}
+.lista{
+     color: white;
+     text-align: left;
+     font-size: 16px;
+     margin-top: 0px;   
+}
+
+.ok{
+     color: green;
+     text-shadow: 0.5px 1px black;
+}
+.oferta22{
+     text-align: left;
+     margin-top: 0px;
+     padding-left: 15px;
+     color: white;
+
+}
+.oferta33{
+     text-align: left;
+     position: relative;
+     top: -15px;
+     margin: 0;
+    padding-left: 15px;
+    color: rgba(255, 255, 255, 0.658);
+}
+
+.oferta_button1{
+     border-radius: 20px;
+     padding: 10px;
+     border: 0;
+     background-color: rgba(250, 128, 114, 0.596);
+     font-weight: bold;
+
+}
+.oferta_button1:hover {
+     border: 5px solid rgb(255, 255, 255);
+     background-color: rgb(250, 128, 114);
+     transition: 0.5s;
+     font-size: 15px;
+   }
+
+   .oferta_button2{
+     font-weight: bold;
+     border-radius: 20px;
+     padding: 10px;
+     border: 0;
+     background-color:  rgba(185, 5, 185, 0.548);
+
+}
+.oferta_button2:hover {
+     border: 5px solid salmon;
+     transition: 0.5s;
+     border: 5px solid rgb(255, 255, 255);
+     background-color:  rgb(185, 5, 185);
+     transition: 0.5s;
+     font-size: 15px;
+   }
+   .oferta_button3{
+     font-weight: bold;
+     border-radius: 20px;
+     padding: 10px;
+     border: 0;
+     background-color:  rgba(0, 204, 255, 0.562);
+
+}
+.oferta_button3:hover {
+     background-color:  rgb(0, 204, 255);
+     transition: 0.5s;
+     transition: 0.5s;
+     font-size: 15px;
+     border: 5px solid rgb(255, 255, 255);
+   }
+   
