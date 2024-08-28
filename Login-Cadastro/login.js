@@ -17,7 +17,7 @@ button.addEventListener('click',() =>{
           }
      }
      if (acesso){
-          location.href = '/Projeto Spotfy (Finalizado)/Pagina_musica/music.html';
+          location.href = '/Pagina_musica/music.html';
      }
      else {
           erro.style.display = "block";
