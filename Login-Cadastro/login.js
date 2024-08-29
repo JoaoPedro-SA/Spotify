@@ -17,7 +17,7 @@ button.addEventListener('click',() =>{
           }
      }
      if (acesso){
-          location.href = '/Pagina_musica/music.html';
+          location.href = 'music.html';
      }
      else {
           erro.style.display = "block";
