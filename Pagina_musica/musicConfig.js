@@ -242,7 +242,7 @@ const botaopreto = document.querySelector('.button_preto_branco');
 const linkEstilo = document.querySelector('link[rel="stylesheet"]'); // Seleciona o link do CSS atual
 
 botaopreto.addEventListener('click', function () {
-  linkEstilo.href = (linkEstilo.href.includes('music.css')) ? 'musicBrank.css' : 'music.css';
+  linkEstilo.href = (linkEstilo.href.includes('Pagina_musica/music.css')) ? 'Pagina_musica/musicBrank.css' : 'Pagina_musica/music.css';
 });
 
 //###################################################################################################
