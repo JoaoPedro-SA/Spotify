@@ -653,11 +653,12 @@ transition: 1.5s;
 }
 
 .corpo_music{
-padding-left: 5%;
-padding-top: 0%;
-padding-bottom: 0%;
-     
-}
+     padding-left: 5%;
+     padding-top: 5rem;
+     padding-bottom: 0rem;
+          
+     } 
+
 .music2{
  padding-top: 10%;
  padding-bottom: 10%;
