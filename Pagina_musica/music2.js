@@ -1,7 +1,7 @@
 let controleEsquerdo = document.getElementById("controleEsquerdo");
 let controleDireito = document.getElementById("controleDireito");
 let elementoAudio = document.querySelector(".music_ordem1");
-
+let tempo;
 
 let localizacao = 0; // posição inicial
 const passo = 25; // pixels por intervalo
