@@ -34,3 +34,8 @@ controleEsquerdo33.addEventListener("mousedown", deslocarParaEsquerda);
 controleEsquerdo33.addEventListener("mouseup", pararDeslocamento);
 controleDireito33.addEventListener("mousedown", deslocarParaDireita);
 controleDireito33.addEventListener("mouseup", pararDeslocamento);
+
+controleEsquerdo33.addEventListener("touchstart", deslocarParaEsquerda);
+controleEsquerdo33.addEventListener("touchend",pararDeslocamento);
+controleDireito33.addEventListener("touchstart", deslocarParaDireita);
+controleDireito33.addEventListener("touchend", pararDeslocamento);

@@ -1,7 +1,7 @@
-const controleEsquerdo = document.getElementById("controleEsquerdo");
-const controleDireito = document.getElementById("controleDireito");
-const elementoAudio = document.querySelector(".music_ordem1");
-let tempo;
+let controleEsquerdo = document.getElementById("controleEsquerdo");
+let controleDireito = document.getElementById("controleDireito");
+let elementoAudio = document.querySelector(".music_ordem1");
+
 
 let localizacao = 0; // posição inicial
 const passo = 25; // pixels por intervalo
@@ -36,3 +36,8 @@ controleEsquerdo.addEventListener("mousedown", deslocarParaEsquerda);
 controleEsquerdo.addEventListener("mouseup", pararDeslocamento);
 controleDireito.addEventListener("mousedown", deslocarParaDireita);
 controleDireito.addEventListener("mouseup", pararDeslocamento);
+
+controleEsquerdo.addEventListener("touchstart", deslocarParaEsquerda);
+controleEsquerdo.addEventListener("touchend", pararDeslocamento);
+controleDireito.addEventListener("touchstart", deslocarParaDireita);
+controleDireito.addEventListener("touchend", pararDeslocamento);

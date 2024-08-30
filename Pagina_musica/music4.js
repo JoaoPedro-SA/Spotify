@@ -34,3 +34,8 @@ controleEsquerdo44.addEventListener("mousedown", deslocarParaEsquerda);
 controleEsquerdo44.addEventListener("mouseup", pararDeslocamento);
 controleDireito44.addEventListener("mousedown", deslocarParaDireita);
 controleDireito44.addEventListener("mouseup", pararDeslocamento);
+
+controleEsquerdo44.addEventListener("touchstart", deslocarParaEsquerda);
+controleEsquerdo44.addEventListener("touchend",pararDeslocamento);
+controleDireito44.addEventListener("touchstart", deslocarParaDireita);
+controleDireito44.addEventListener("touchend", pararDeslocamento);

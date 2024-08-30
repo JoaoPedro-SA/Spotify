@@ -41,6 +41,12 @@ botaoDireita.addEventListener("mousedown", moverDireita);
 botaoDireita.addEventListener("mouseup", pararMovimento);
 
 
+botaoEsquerda.addEventListener("touchstart",  moverEsquerda);
+botaoEsquerda.addEventListener("touchend", pararMovimento);
+botaoDireita.addEventListener("touchstart", moverDireita);
+botaoDireita.addEventListener("touchend", pararMovimento);
+
+
 const controleEsquerdo = document.getElementById("controleEsquerdo");
 const controleDireito = document.getElementById("controleDireito");
 const elementoAudio = document.querySelector(".music_ordem1");
