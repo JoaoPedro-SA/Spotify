@@ -796,7 +796,12 @@ transition: 1.5s;
      gap: 2000px;
 }
 
+@media screen and (max-height: 1202px ) and (max-width: 1202px) {
+     nav{
+          overflow-x: scroll;
+     }
 
+}
 
 
 
