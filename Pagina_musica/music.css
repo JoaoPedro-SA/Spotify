@@ -7,7 +7,7 @@ body{
      overflow-x: hidden;
      position: relative;
      height: fit-content;
-     overflow-y: hidden;
+     overflow-y: visible;
 }
 
 nav { 
@@ -655,8 +655,8 @@ transition: 1.5s;
 
 .corpo_music{
 padding-left: 5%;
-padding-top: 0%;
-padding-bottom: 0%;
+padding-top: 5rem;
+padding-bottom: 0rem;
      
 }
 .music2{
