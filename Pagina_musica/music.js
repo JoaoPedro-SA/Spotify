@@ -86,6 +86,10 @@ controleEsquerdo.addEventListener("mouseup", pararDeslocamento);
 controleDireito.addEventListener("mousedown", deslocarParaDireita);
 controleDireito.addEventListener("mouseup", pararDeslocamento);
 
+controleEsquerdo.addEventListener("touchstart", deslocarParaEsquerda);
+controleEsquerdo.addEventListener("touchend", pararDeslocamento);
+controleDireito.addEventListener("touchstart", deslocarParaDireita);
+controleDireito.addEventListener("touchend", pararDeslocamento);
 
 
 // PESADELO FOI ISSO AQUI ☝
