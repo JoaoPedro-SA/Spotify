@@ -57,7 +57,7 @@ let mostrarMenu = false;
 //   }
 // }
 botaoMenu.style.display = ''
-botaoMenu.addEventListener('click', () => {
+botaoMenu.addEventListener('click', fecharMenu = () => {
   if (mostrarMenu) {
     // Esconder o menu e mostrar o conteúdo
     menu2.style.display = 'none';
@@ -82,9 +82,13 @@ botaoMenu.addEventListener('click', () => {
   }
 
 }
+
 );
+
+fecharMenu();
+
 botaoMenuL.style.display = ''
-botaoMenuL.addEventListener('click', () => {
+botaoMenuL.addEventListener('click', fecharMenu2 = () => {
   if (mostrarMenu) {
     // Esconder o menu e mostrar o conteúdo
     menu2.style.display = 'none';
@@ -110,6 +114,7 @@ botaoMenuL.addEventListener('click', () => {
 }
 );
 
+fecharMenu2();
 //################################################################################################
 
 
